@@ -1,5 +1,5 @@
 class animal(object):
-    def __init__(self, startname):
+    def __init__(self, startname, age):
         self.name = startname #attribute1
         self.age = age  #attribute2
     def description(self): #method1

@@ -1,4 +1,2 @@
-import pandas as pd
-s = pd.Series([1,2,3])
-print(s)
-
+from MyModule import animal
+zebra = animal("Jeffrey",21)
